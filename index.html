@@ -82,15 +82,49 @@
 
                     <article class="card">
                         <h3>10. git status</h3>
-                        <p>
-                            Serve para mostrar o status da pasta (Arquivos que não estão adicionados, arquivos que foram modificados, arquivos que estão adicionados, etc)
-                            <br>
-                            Explicação de alguns status de arquivos: 
-                            Untracked → Arquivos que ainda não são acompanhados pelo Git.
-                            Stage → Arquivos que estão prontos para o commit. Estão na Staging area (área de preparação).
-                            Modified → Depois que um arquivo que já é acompanhado for alterado, ele aparecerá como modificado.
-                        </p>
+                        <p>Serve para mostrar o status da pasta (Arquivos que não estão adicionados, arquivos que foram modificados, arquivos que estão adicionados, etc)</p>
                     </article>
+
+                    <table class="tabela-status">
+                        <caption>Comparação entre os status de um arquivo</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Status</th>
+                                <th scope="col">Significado</th>
+                                <th scope="col">O que acontece?</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Untracked</th>
+                                <td>Arquivos novos no projeto que o Git ainda não está monitorando.</td>
+                                <td> O arquivo é novo no projeto e o Git ainda não o está monitorando. Ele não será incluído no próximo commit até que você use o comando git add.</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Modified</th>
+                                <td>O arquivo já é rastreado pelo Git e sofreu alterações no diretório de trabalho</td>
+                                <td>Que as mudanças feitas naquele arquivo ainda não estão prontas para o commit.</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Staged</th>
+                                <td> O arquivo foi alterado e adicionado à área de preparação com git add.</td>
+                                <td>git add. Ele já está pronto para ser gravado no próximo commit.</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Clean</th>
+                                <td>O arquivo não sofreu nenhuma alteração desde o último commit</td>
+                                <td>Nada.</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Essa tabela exibe um resumo sobre cada um dos possíveis status de um arquivo ou pasta.</td>
+                            </tr>
+                        </tfoot>
+                    </table>
 
                     <article class="card">
                         <h3>11. git add README.md</h3>
