@@ -5,8 +5,8 @@
 body{
     margin: 2px;
     
-    background-color: white;
-    color: rgb(209, 176, 15);
+    background-color: rgb(241, 231, 231);
+    color: rgb(0, 0, 0);
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -31,7 +31,7 @@ h3{
 }
 
 a{
-    color: rgb(37, 144, 37);
+    color: black;
 }
 
 strong{
@@ -55,4 +55,61 @@ strong{
     color: white;
     max-width: 700px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-lista{
+    margin: 20px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.menu-lista li{
+    display: inline-block;
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+
+    padding: 8px 12px;
+
+    background-color: orangered;
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+.secao-dicas{
+    padding: 72px;
+}
+
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+
+.card{
+    padding: 24px;
+    background-color: rgba(230, 225, 225, 0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: rgb(228, 63, 3);
+    text-align: center;
+}
+
+.rodape a{
+    text-decoration: none;
+}
+
+.rodape address{
+    font-style: normal;
 }
