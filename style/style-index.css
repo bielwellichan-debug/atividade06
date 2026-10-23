@@ -1,0 +1,29 @@
+.tabela-status{
+    width: 100%;
+
+    border-collapse: collapse;
+    background-color: rgba(230, 225, 225, 0.5);
+}
+
+.tabela-status caption{
+    margin-bottom: 10px;
+
+    font-weight: bold;
+    text-align: left;
+}
+
+.tabela-status th, td{
+    padding: 12px;
+
+    border: 1px solid rgb(97, 94, 94);
+
+    text-align: left;
+}
+
+.tabela-status thead{
+    background-color: rgba(238, 60, 5, 0.788);
+}
+
+.tabela-status tfoot strong{
+    color: orangered;
+}
