@@ -1,0 +1,30 @@
+.secao-biografia{
+    padding: 72px;
+    margin: 25px 0;
+}
+
+.citacao{
+    display: grid;
+
+    padding: 24px;
+    background-color: rgba(230, 225, 225, 0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+}
+
+#citacao-paragrafo{
+    margin-left: 50px;
+}
+
+.biografia-card{
+    padding: 24px;
+    background-color: rgba(230, 225, 225, 0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+}
+
+.secao-premios{
+    margin-top: 10px auto;
+}
